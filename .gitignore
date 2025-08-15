@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+
+# Envs
+.venv/
+env/
+venv/
+*.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Data 
+data/
+*.csv
+!outputs/metrics.csv
+!outputs/psi_top.csv
+!outputs/selected_features.csv
+
+# Jupyter
+.ipynb_checkpoints/
